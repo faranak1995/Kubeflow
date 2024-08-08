@@ -1,0 +1,38 @@
+In this scenario, first of all we should have a vision of our main figure.
+We want to have a docker and kubernetes based system including containers to run the code without needed to install all the softwares in different systems and the same version.
+
+1. Jupyter Notebook to coding
+2. MINIO, Harbor or other softwares for data and model storage
+3. Kubeflow pipelines
+4. KServe for model inference and digital recognizer
+
+Source: https://github.com/flopach/digits-recognizer-kubeflow
+
+To implement the system, first of all we should install the docker from https://www.docker.com/products/docker-desktop/ 
+
+Then, install docker. Furthermore, you can use cmd (windows + R) to check the version of docker:
+
+docker version
+
+After making an account in docker hub and login you can check the images:
+
+docker images
+
+Also, you can check the images in your current local area:
+
+docker images ls
+
+In addition, you can pull an image from docker hub:
+
+docker pull ubuntu
+
+Command above download an ubuntu from docker hub and you can use it. If you want to edit it you should type: (you can use sudo)
+
+docker pull -it ubuntu
+
+To exit you can type:
+
+exit
+
+In addition, you can use Linux commands like ru (run), rm (remove), mkdir (make a folder), touch (make a file), nano (open and edit a file), mv (rename) etc.
+
